@@ -1,0 +1,7 @@
+D:\C#CodeBase Test\CodeBase\obj\Debug\CodeBase.csproj.AssemblyReference.cache
+D:\C#CodeBase Test\CodeBase\obj\Debug\CodeBase.csproj.CoreCompileInputs.cache
+D:\C#CodeBase Test\CodeBase\bin\Debug\CodeBase.exe.config
+D:\C#CodeBase Test\CodeBase\bin\Debug\CodeBase.exe
+D:\C#CodeBase Test\CodeBase\bin\Debug\CodeBase.pdb
+D:\C#CodeBase Test\CodeBase\obj\Debug\CodeBase.exe
+D:\C#CodeBase Test\CodeBase\obj\Debug\CodeBase.pdb
