@@ -20,7 +20,7 @@ namespace CodeBaseTest_2
             List<Products> products = new List<Products>();
 
             // Accept 10 products from the user
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine($"Enter details for Product {i + 1}:");
                 Console.Write("Product ID: ");
