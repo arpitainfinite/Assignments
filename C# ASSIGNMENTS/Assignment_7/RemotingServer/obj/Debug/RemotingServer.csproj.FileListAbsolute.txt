@@ -1,0 +1,10 @@
+D:\Assignments\C# ASSIGNMENTS\RemotingServer\bin\Debug\RemotingServer.exe.config
+D:\Assignments\C# ASSIGNMENTS\RemotingServer\bin\Debug\RemotingServer.exe
+D:\Assignments\C# ASSIGNMENTS\RemotingServer\bin\Debug\RemotingServer.pdb
+D:\Assignments\C# ASSIGNMENTS\RemotingServer\obj\Debug\RemotingServer.csproj.AssemblyReference.cache
+D:\Assignments\C# ASSIGNMENTS\RemotingServer\obj\Debug\RemotingServer.Form1.resources
+D:\Assignments\C# ASSIGNMENTS\RemotingServer\obj\Debug\RemotingServer.Properties.Resources.resources
+D:\Assignments\C# ASSIGNMENTS\RemotingServer\obj\Debug\RemotingServer.csproj.GenerateResource.cache
+D:\Assignments\C# ASSIGNMENTS\RemotingServer\obj\Debug\RemotingServer.csproj.CoreCompileInputs.cache
+D:\Assignments\C# ASSIGNMENTS\RemotingServer\obj\Debug\RemotingServer.exe
+D:\Assignments\C# ASSIGNMENTS\RemotingServer\obj\Debug\RemotingServer.pdb

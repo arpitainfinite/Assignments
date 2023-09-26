@@ -1,0 +1,11 @@
+D:\Assignments\C# ASSIGNMENTS\RemotingClient\bin\Debug\RemotingClient.exe.config
+D:\Assignments\C# ASSIGNMENTS\RemotingClient\bin\Debug\RemotingClient.exe
+D:\Assignments\C# ASSIGNMENTS\RemotingClient\bin\Debug\RemotingClient.pdb
+D:\Assignments\C# ASSIGNMENTS\RemotingClient\bin\Debug\RemotingServer.exe
+D:\Assignments\C# ASSIGNMENTS\RemotingClient\bin\Debug\RemotingServer.pdb
+D:\Assignments\C# ASSIGNMENTS\RemotingClient\bin\Debug\RemotingServer.exe.config
+D:\Assignments\C# ASSIGNMENTS\RemotingClient\obj\Debug\RemotingClient.csproj.AssemblyReference.cache
+D:\Assignments\C# ASSIGNMENTS\RemotingClient\obj\Debug\RemotingClient.csproj.CoreCompileInputs.cache
+D:\Assignments\C# ASSIGNMENTS\RemotingClient\obj\Debug\RemotingClient.csproj.CopyComplete
+D:\Assignments\C# ASSIGNMENTS\RemotingClient\obj\Debug\RemotingClient.exe
+D:\Assignments\C# ASSIGNMENTS\RemotingClient\obj\Debug\RemotingClient.pdb
