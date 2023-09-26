@@ -1,0 +1,7 @@
+D:\Assignments\C# ASSIGNMENTS\Assignment_8\obj\Debug\Assignment_8.csproj.AssemblyReference.cache
+D:\Assignments\C# ASSIGNMENTS\Assignment_8\obj\Debug\Assignment_8.csproj.CoreCompileInputs.cache
+D:\Assignments\C# ASSIGNMENTS\Assignment_8\bin\Debug\Assignment_8.exe.config
+D:\Assignments\C# ASSIGNMENTS\Assignment_8\bin\Debug\Assignment_8.exe
+D:\Assignments\C# ASSIGNMENTS\Assignment_8\bin\Debug\Assignment_8.pdb
+D:\Assignments\C# ASSIGNMENTS\Assignment_8\obj\Debug\Assignment_8.exe
+D:\Assignments\C# ASSIGNMENTS\Assignment_8\obj\Debug\Assignment_8.pdb
