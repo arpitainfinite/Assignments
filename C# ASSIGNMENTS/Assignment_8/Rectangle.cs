@@ -26,5 +26,10 @@ namespace Assignment_8
         {
             return "Rectangle Shape";
         }
+
+        public double GetShapePerimeter()
+        {
+            return 2 * (Length + Breadth);
+        }
     }
 }

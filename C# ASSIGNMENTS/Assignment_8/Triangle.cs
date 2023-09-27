@@ -23,7 +23,12 @@ namespace Assignment_8
         }
         public string GetShapeType()
         {
-            return "Triangle";
+            return "Triangle Shape";
+        }
+
+        public double GetShapePerimeter()
+        {
+            return 3 * Base;
         }
     }
 }

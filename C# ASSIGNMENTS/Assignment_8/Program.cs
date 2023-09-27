@@ -54,8 +54,9 @@ namespace Assignment_8
 
                 if (cc != null)
                 {
-                    Console.WriteLine("Shape Type: {0}", cc.GetShapeType());
-                    Console.WriteLine("Shape Area: {0}", cc.GetShapeArea());
+                    Console.WriteLine("\nShape Type: {0}", cc.GetShapeType());
+                    Console.WriteLine("\nShape Area: {0}", cc.GetShapeArea());
+                    Console.WriteLine("\nShape Perimeter: {0}", cc.GetShapePerimeter());
                 }
                 else
                 {

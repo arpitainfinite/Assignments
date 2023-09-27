@@ -22,5 +22,11 @@ namespace Assignment_8
         {
             return "Circle Shape";
         }
+
+        public double GetShapePerimeter()
+        {
+            return 2* Math.PI* Radius;
+        }
+        
     }
 }

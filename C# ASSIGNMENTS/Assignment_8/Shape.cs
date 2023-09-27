@@ -10,5 +10,6 @@ namespace Assignment_8
     {
         string GetShapeType();
         double GetShapeArea();
+        double GetShapePerimeter();
     }
 }
