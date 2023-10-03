@@ -1,13 +1,8 @@
 ﻿using System;
-
 using System.Runtime.Remoting;
-
 using System.Runtime.Remoting.Channels;
-
 using System.Runtime.Remoting.Channels.Http;
-
 using System.Runtime.Remoting.Channels.Tcp;
-
 using System.Windows.Forms;
 
 namespace RemotingServer
@@ -27,14 +22,8 @@ namespace RemotingServer
             HttpChannel c = new HttpChannel(85);
 
             // TcpChannel tc = new TcpChannel(8080);
-
-
-
             //register the channel
-
             ChannelServices.RegisterChannel(c);
-
-
 
             //configure all known services
 
@@ -51,16 +40,9 @@ namespace RemotingServer
     public class Service : MarshalByRefObject
 
     {
-
         public string SayHello(string s)
-
         {
-
             return "Hello" + s;
-
         }
-
-
-
     }
 }

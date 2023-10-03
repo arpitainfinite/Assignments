@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Assignment_7",
+    "\\Assignment_7\\RemotingClient",
+    "\\Assignment_7\\RemotingServer"
   ],
+  "SelectedNode": "\\Assignment_7\\RemotingServer\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }
