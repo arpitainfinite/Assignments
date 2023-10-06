@@ -1,7 +1,0 @@
-D:\Training_ICS\Aman\CaseStudy_1\CaseStudy_1\bin\Debug\CaseStudy_1.exe.config
-D:\Training_ICS\Aman\CaseStudy_1\CaseStudy_1\bin\Debug\CaseStudy_1.exe
-D:\Training_ICS\Aman\CaseStudy_1\CaseStudy_1\bin\Debug\CaseStudy_1.pdb
-D:\Training_ICS\Aman\CaseStudy_1\CaseStudy_1\obj\Debug\CaseStudy_1.csproj.AssemblyReference.cache
-D:\Training_ICS\Aman\CaseStudy_1\CaseStudy_1\obj\Debug\CaseStudy_1.csproj.CoreCompileInputs.cache
-D:\Training_ICS\Aman\CaseStudy_1\CaseStudy_1\obj\Debug\CaseStudy_1.exe
-D:\Training_ICS\Aman\CaseStudy_1\CaseStudy_1\obj\Debug\CaseStudy_1.pdb
