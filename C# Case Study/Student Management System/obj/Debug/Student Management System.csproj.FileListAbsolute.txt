@@ -1,0 +1,14 @@
+D:\SMS\Student Management System\obj\Debug\Student Management System.csproj.AssemblyReference.cache
+D:\SMS\Student Management System\obj\Debug\Student Management System.csproj.CoreCompileInputs.cache
+D:\SMS\Student Management System\bin\Debug\Student Management System.exe.config
+D:\SMS\Student Management System\bin\Debug\Student Management System.exe
+D:\SMS\Student Management System\bin\Debug\Student Management System.pdb
+D:\SMS\Student Management System\obj\Debug\Student Management System.exe
+D:\SMS\Student Management System\obj\Debug\Student Management System.pdb
+D:\Assignments\C# Case Study\Student Management System\bin\Debug\Student Management System.exe.config
+D:\Assignments\C# Case Study\Student Management System\bin\Debug\Student Management System.exe
+D:\Assignments\C# Case Study\Student Management System\bin\Debug\Student Management System.pdb
+D:\Assignments\C# Case Study\Student Management System\obj\Debug\Student Management System.csproj.AssemblyReference.cache
+D:\Assignments\C# Case Study\Student Management System\obj\Debug\Student Management System.csproj.CoreCompileInputs.cache
+D:\Assignments\C# Case Study\Student Management System\obj\Debug\Student Management System.exe
+D:\Assignments\C# Case Study\Student Management System\obj\Debug\Student Management System.pdb
