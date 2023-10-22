@@ -1,0 +1,7 @@
+D:\Assignments\SQL\Assignments\Linq_To_Sql\bin\Debug\Linq_To_Sql.exe.config
+D:\Assignments\SQL\Assignments\Linq_To_Sql\bin\Debug\Linq_To_Sql.exe
+D:\Assignments\SQL\Assignments\Linq_To_Sql\bin\Debug\Linq_To_Sql.pdb
+D:\Assignments\SQL\Assignments\Linq_To_Sql\obj\Debug\Linq_To_Sql.csproj.AssemblyReference.cache
+D:\Assignments\SQL\Assignments\Linq_To_Sql\obj\Debug\Linq_To_Sql.csproj.CoreCompileInputs.cache
+D:\Assignments\SQL\Assignments\Linq_To_Sql\obj\Debug\Linq_To_Sql.exe
+D:\Assignments\SQL\Assignments\Linq_To_Sql\obj\Debug\Linq_To_Sql.pdb
