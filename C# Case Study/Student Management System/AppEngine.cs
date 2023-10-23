@@ -8,6 +8,8 @@ namespace Student_Management_System
         private List<Student> students = new List<Student>();
         private List<Course> courses = new List<Course>();
         private List<Enroll> enrollments = new List<Enroll>();
+        private Sql_Connection Sql=new Sql_Connection
+        
 
         public void RegisterCourse(Course course)
         {
@@ -17,6 +19,7 @@ namespace Student_Management_System
         public void RegisterStudent(Student student)
         {
             students.Add(student);
+            Sql.AddStudentDetails(student);
         }
 
         public Student[] ListOfStudents()

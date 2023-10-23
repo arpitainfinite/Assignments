@@ -1,0 +1,7 @@
+D:\Assignments\SQL\SQL CodeBaseTest\Codebase_Test2\obj\Debug\Codebase_Test2.csproj.AssemblyReference.cache
+D:\Assignments\SQL\SQL CodeBaseTest\Codebase_Test2\obj\Debug\Codebase_Test2.csproj.CoreCompileInputs.cache
+D:\Assignments\SQL\SQL CodeBaseTest\Codebase_Test2\bin\Debug\Codebase_Test2.exe.config
+D:\Assignments\SQL\SQL CodeBaseTest\Codebase_Test2\bin\Debug\Codebase_Test2.exe
+D:\Assignments\SQL\SQL CodeBaseTest\Codebase_Test2\bin\Debug\Codebase_Test2.pdb
+D:\Assignments\SQL\SQL CodeBaseTest\Codebase_Test2\obj\Debug\Codebase_Test2.exe
+D:\Assignments\SQL\SQL CodeBaseTest\Codebase_Test2\obj\Debug\Codebase_Test2.pdb
