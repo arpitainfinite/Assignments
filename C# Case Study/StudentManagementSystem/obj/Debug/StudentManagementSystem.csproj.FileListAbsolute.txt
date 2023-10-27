@@ -1,0 +1,7 @@
+D:\Assignments\C# Case Study\StudentManagementSystem\obj\Debug\StudentManagementSystem.csproj.AssemblyReference.cache
+D:\Assignments\C# Case Study\StudentManagementSystem\obj\Debug\StudentManagementSystem.csproj.CoreCompileInputs.cache
+D:\Assignments\C# Case Study\StudentManagementSystem\bin\Debug\StudentManagementSystem.exe.config
+D:\Assignments\C# Case Study\StudentManagementSystem\bin\Debug\StudentManagementSystem.exe
+D:\Assignments\C# Case Study\StudentManagementSystem\bin\Debug\StudentManagementSystem.pdb
+D:\Assignments\C# Case Study\StudentManagementSystem\obj\Debug\StudentManagementSystem.exe
+D:\Assignments\C# Case Study\StudentManagementSystem\obj\Debug\StudentManagementSystem.pdb
