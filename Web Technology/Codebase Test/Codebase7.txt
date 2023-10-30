@@ -1,0 +1,183 @@
+------Question 1: Write a JavaScript program to calculate multiplication and division of two numbers (input from user).
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>calculate multiplication and division of two numbers</title>
+    <style type="text/css">
+        body {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        1st Number : <input type="text" id="firstNumber" /><br>
+        2nd Number: <input type="text" id="secondNumber" /><br>
+        <input type="button" onClick="multiplyBy()" value="Multiply" />
+        <input type="button" onClick="divideBy()" value="Divide" />
+    </form>
+    <p>
+        The Result is : <br>
+        <span id="result"></span>
+    </p>
+
+    <script>
+        function multiplyBy() {
+            num1 = document.getElementById("firstNumber").value;
+            num2 = document.getElementById("secondNumber").value;
+            document.getElementById("result").innerHTML = num1 * num2;
+        }
+
+        function divideBy() {
+            num1 = document.getElementById("firstNumber").value;
+            num2 = document.getElementById("secondNumber").value;
+            document.getElementById("result").innerHTML = num1 / num2;
+        }
+    </script>
+
+</body>
+</html>
+
+_____________________________________________________________________________________________________________________________________________________
+
+----Question 2: Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it will check if the current number is odd or even, 
+                and display a message to the screen.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Even and Odd Numbers</h1>
+    <div id="output"></div>
+    <script>
+        for (let i = 0; i <= 15; i++) {
+            let message = `${i} is `;
+            if (i % 2 === 0) {
+                message += 'even';
+            } else {
+                message += 'odd';
+            }
+            message += "<br>";
+            document.getElementById('output').innerHTML += message;
+        }
+    </script>
+</body>
+</html>
+
+____________________________________________________________________________________________________________________________________________________________
+
+----Question 3: Write the following application. The initial page is called Validator.aspx and it has 7 text boxes representing (Name, Family Name, Address,
+                City, Zip Code, Phone and e-mail address) and a Check button.
+                User gets the following page after clicking on Check button:
+
+
+---Validator.aspx
+
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Validator.aspx.cs" Inherits="Questin_3.Validator" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Validator</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <h1>User Information</h1>
+        <br />
+        <h2>Insert your details</h2>
+     <div>
+<label for="name">Name:</label>
+<asp:TextBox ID="txtName" runat="server" placeholder="Enter your name"></asp:TextBox>
+<asp:RequiredFieldValidator ID="rfvName" runat="server" ControlToValidate="txtName" InitialValue=""
+        Text="* Name is required" ForeColor="Red" Display="Dynamic" />
+</div>
+            <label for="familyName">Family Name:</label>
+            <asp:TextBox ID="txtFamilyName" runat="server" placeholder="Enter your family name (different from name)"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="FamilyName" runat="server" ControlToValidate="txtFamilyName" InitialValue="" Text="* Family Name is required" ForeColor="Red" Display="Dynamic" />
+        </div>
+        <div>
+            <label for="address">Address:</label>
+            <asp:TextBox ID="txtAddress" runat="server" placeholder="Enter your address"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="Address" runat="server" ControlToValidate="txtAddress" InitialValue="" Text="* Address is required" ForeColor="Red" Display="Dynamic" />
+        </div>
+        <div>
+            <label for="city">City:</label>
+            <asp:TextBox ID="txtCity" runat="server" placeholder="At least 2 characters"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="City" runat="server" ControlToValidate="txtCity" InitialValue="" Text="* City is required" ForeColor="Red" Display="Dynamic" />
+        </div>
+        <div>
+            <label for="zipCode">Zip Code:</label>
+            <asp:TextBox ID="txtZipCode" runat="server" placeholder="Enter your zip code"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="ZipCode" runat="server" ControlToValidate="txtZipCode" InitialValue="" Text="* Zip Code is required" ForeColor="Red" Display="Dynamic" />
+        </div>
+        <div>
+            <label for="phone">Phone:</label>
+            <asp:TextBox ID="txtPhone" runat="server" placeholder="Enter your phone number"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="Phone" runat="server" ControlToValidate="txtPhone" InitialValue="" Text="* Phone is required" ForeColor="Red" Display="Dynamic" />
+        </div>
+        <div>
+            <label for="email">E-Mail:</label>
+            <asp:TextBox ID="txtEmail" runat="server" placeholder="Enter your email address"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="Email" runat="server" ControlToValidate="txtEmail" InitialValue="" Text="* Email is required" ForeColor="Red" Display="Dynamic" />
+        </div>
+        <asp:Button ID="btnCheck" runat="server" Text="Check" OnClick="btnCheck_Click" />
+        <br />
+        <asp:Label ID="resultLabel" runat="server" EnableViewState="false"></asp:Label>
+    </form>
+</body>
+</html>
+
+________________________________________________________________________________________________________________________________________________________________________
+
+---Validator.aspx.cs
+
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace Question3
+{
+    public partial class Validator : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnCheck_Click(object sender, EventArgs e)
+        {
+            string name = txtName.Text;
+            string familyName = txtFamilyName.Text;
+            string address = txtAddress.Text;
+            string city = txtCity.Text;
+            string zipCode = txtZipCode.Text;
+            string phone = txtPhone.Text;
+            string email = txtEmail.Text;
+
+            string resultMessage = $@"Name: {name}<br />
+                                     Family Name: {familyName}<br />
+                                     Address: {address}<br />
+                                     City: {city}<br />
+                                     Zip Code: {zipCode}<br />
+                                     Phone: {phone}<br />
+                                     Email: {email}<br />";
+
+            resultLabel.Text = resultMessage;
+        }
+    }
+}
+
+
+
+
+
+
