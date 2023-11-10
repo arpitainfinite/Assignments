@@ -1,0 +1,24 @@
+﻿
+@model IEnumerable<Codebase_TestMVC.Customer>
+@{ 
+    ViewBag.Title = "germanCustomers"; 
+ }
+
+<h2>Customers in Germany</h2>
+
+@using (Html.BeginForm())
+{
+<table border="1" cellspacing="5" cellpadding="10" align="center">
+    <tr>
+        <th>Customer ID</th>
+    </tr>
+    @foreach (var c in Model)
+    {
+<tr>
+    <td>@c.CustomerID</td>
+</tr>
+    }
+</table>
+}
+
+
